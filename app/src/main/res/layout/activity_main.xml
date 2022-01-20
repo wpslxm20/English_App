@@ -8,6 +8,12 @@
     android:layout_margin="15dp"
     android:padding="10dp">
 
+    <EditText
+        android:id="@+id/editSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="검색어를 입력하세요."/>
+
     <ListView
         android:id="@+id/listView_main_list"
         android:layout_width="match_parent"
@@ -16,12 +22,12 @@
         android:layout_weight="6"
         android:padding="5dp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="4"
-        android:layout_margin="5dp"
-        android:padding="5dp"
-        android:id="@+id/textView_main_result" />
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="4"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:padding="5dp"-->
+<!--        android:id="@+id/textView_main_result" />-->
 
 </LinearLayout>
